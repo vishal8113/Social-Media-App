@@ -32,20 +32,19 @@ public class Viewholder_Question extends RecyclerView.ViewHolder {
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     public Viewholder_Question(@NonNull View itemView) {
         super(itemView);
-        time_result = itemView.findViewById(R.id.time_que_item_tv);
-        name_result = itemView.findViewById(R.id.name_que_item_tv);
-        question_result = itemView.findViewById(R.id.que_item_tv);
-        imageView = itemView.findViewById(R.id.iv_que_item);
-        replybtn = itemView.findViewById(R.id.reply_item_que);
-        cv_question = itemView.findViewById(R.id.cv_question);
-        ll_question = itemView.findViewById(R.id.ll_questions);
-        fvrt_btn = itemView.findViewById(R.id.fvrt_f2_item);
+
     }
 
    public void setitem(FragmentActivity activity,String name,String url,String userid,String key,String question,String privacy,
                   String time,String category){
 
-
+       time_result = itemView.findViewById(R.id.time_que_item_tv);
+       name_result = itemView.findViewById(R.id.name_que_item_tv);
+       question_result = itemView.findViewById(R.id.que_item_tv);
+       imageView = itemView.findViewById(R.id.iv_que_item);
+       replybtn = itemView.findViewById(R.id.reply_item_que);
+       cv_question = itemView.findViewById(R.id.cv_question);
+       ll_question = itemView.findViewById(R.id.ll_questions);
 
        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
        String currentuid = user.getUid();
@@ -86,6 +85,8 @@ public class Viewholder_Question extends RecyclerView.ViewHolder {
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         final String uid = user.getUid();
 
+        fvrt_btn = itemView.findViewById(R.id.fvrt_f2_item);
+
         if(favouriteref != null)
         {
             favouriteref.addValueEventListener(new ValueEventListener() {
@@ -97,7 +98,6 @@ public class Viewholder_Question extends RecyclerView.ViewHolder {
                     }else {
                         fvrt_btn.setImageResource(R.drawable.ic_baseline_turned_in_not_24);
                     }
-
                 }
 
                 @Override
@@ -106,9 +106,7 @@ public class Viewholder_Question extends RecyclerView.ViewHolder {
                 }
             });
         }
-
     }
-
 
     public void setitemRelated(Application activity, String name, String url, String userid, String key, String question, String privacy,
                                String time){
@@ -123,11 +121,7 @@ public class Viewholder_Question extends RecyclerView.ViewHolder {
        nametv.setText(name);
        timetv.setText(time);
        quetv.setText(question);
-
-
-
     }
-
 
     public void setitemdelete(Application activity, String name, String url, String userid, String key, String question, String privacy,
                                String time){
@@ -143,9 +137,6 @@ public class Viewholder_Question extends RecyclerView.ViewHolder {
         nametv.setText(name);
         timetv.setText(time);
         quetv.setText(question);
-
-
-
     }
 }
 
