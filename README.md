@@ -10,6 +10,33 @@ This is a Java-based Android application that enables users to connect, share, a
 - **Interactions**: Ask and answer questions, reply to posts, and vote on content.
 - **Privacy Settings**: Customize privacy options for profiles, posts, and messages.
 
+## Screenshots
+![image](https://github.com/vishal8113/Social-Media-App/blob/main/Screenshots/ss1.jpeg)
+
+![image](https://github.com/vishal8113/Social-Media-App/blob/main/Screenshots/ss10.jpeg)
+
+![image](https://github.com/vishal8113/Social-Media-App/blob/main/Screenshots/ss11.jpeg)
+
+![image](https://github.com/vishal8113/Social-Media-App/blob/main/Screenshots/ss12.jpeg)
+
+![image](https://github.com/vishal8113/Social-Media-App/blob/main/Screenshots/ss13.jpeg)
+
+![image](https://github.com/vishal8113/Social-Media-App/blob/main/Screenshots/ss2.jpeg)
+
+![image](https://github.com/vishal8113/Social-Media-App/blob/main/Screenshots/ss3.jpeg)
+
+![image](https://github.com/vishal8113/Social-Media-App/blob/main/Screenshots/ss4.jpeg)
+
+![image](https://github.com/vishal8113/Social-Media-App/blob/main/Screenshots/ss5.jpeg)
+
+![image](https://github.com/vishal8113/Social-Media-App/blob/main/Screenshots/ss6.jpeg)
+
+![image](https://github.com/vishal8113/Social-Media-App/blob/main/Screenshots/ss7.jpeg)
+
+![image](https://github.com/vishal8113/Social-Media-App/blob/main/Screenshots/ss8.jpeg)
+
+![image](https://github.com/vishal8113/Social-Media-App/blob/main/Screenshots/ss9.jpeg)
+
 
 
 ## Installation
